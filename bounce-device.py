@@ -17,13 +17,13 @@ def bounce(relay):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Name of relay required: [relay01,relay02,relay03,atomicpi]")
+        print("Name of relay required: [relay01,lupe,ramtop,atomicpi]")
         sys.exit(1)
     elif sys.argv[1] == "relay01":
         bounce(relay01)
-    elif sys.argv[1] == "relay02":
+    elif sys.argv[1] == "lupe":
         bounce(relay02)
-    elif sys.argv[1] == "relay03":
+    elif sys.argv[1] == "ramtop":
         bounce(relay03)
     elif sys.argv[1] == "atomicpi":
         bounce(atomicpi)
